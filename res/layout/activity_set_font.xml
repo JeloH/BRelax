@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:weightSum="6"
+	android:background="@drawable/fffr54_v3"
+	 android:id="@+id/parent1">
+ 	
+  <LinearLayout
+      android:id="@+id/linchild2"
+     android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_weight="1"
+      android:gravity="top|center"
+      android:orientation="vertical" >
+
+      <TextView
+          android:id="@+id/textView1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text=" "
+          android:textSize="12dip"         
+          android:textAppearance="?android:attr/textAppearanceLarge" />
+  
+      <TextView
+          android:id="@+id/textView2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="انتخاب فونت (برای نمایش احادیث)"
+          android:textSize="12dip"         
+          android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+               android:id="@+id/bstyle1_list_button"
+               android:layout_width="189dp"
+	    	    android:layout_height="34dp"
+               android:background="@drawable/wewerwe"
+               android:paddingBottom="5dp"
+               android:text=" سبک یک" />
+      
+
+           
+              <Button android:id="@+id/bstyle2_list_button" 
+	   android:background="@drawable/wewerwe"
+       android:layout_width="189dp"
+	    	    android:layout_height="34dp"
+           android:text="سبک دو"
+              android:paddingBottom="5dp"
+              />
+              
+	   
+	 
+                      <Button android:id="@+id/bstyle3_list_button" 
+	  android:background="@drawable/wewerwe"
+      android:layout_width="189dp"
+	    	    android:layout_height="34dp"
+           android:text="سبک سه"/>
+           
+                      
+                      
+                      	<Button
+	    	    android:id="@+id/bstyle4_list_button"
+	    	    android:layout_width="189dp"
+	    	    android:layout_height="34dp"
+	    	    android:background="@drawable/wewerwe"
+	    	    android:text="سبک چهار" />
+	    
+	   
+	
+        
+        
+  </LinearLayout>
+	
+	
+  <LinearLayout
+          android:id="@+id/linchild1"
+         
+          android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="5"
+      >
+      
+    
+  </LinearLayout>
+  
+	
+</LinearLayout>
+
+
+
+
+

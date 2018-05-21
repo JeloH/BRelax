@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+    android:background="@drawable/fffr54_v7"
+  >
+  
+    
+    
+  <ScrollView android:id="@+id/about_the_game_sv"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  >
+  <TextView android:id="@+id/txt1"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  />
+  
+  </ScrollView>
+    
+</LinearLayout>

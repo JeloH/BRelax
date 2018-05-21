@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:weightSum="6"
+	android:background="@drawable/bg_9900"
+	   android:id="@+id/parent_l2"
+	>
+ 	
+	
+	
+
+  
+  <LinearLayout
+      android:id="@+id/linchild2"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_weight="1.7"
+      android:gravity="center"
+    
+      android:orientation="vertical" >
+      
+ 
+ 		
+
+      
+           <Button android:id="@+id/game_list_button" 
+	    android:background="@drawable/wewerwe"
+          android:layout_width="200dip"
+	    	    android:layout_height="51dip"
+          android:textStyle="bold"
+            android:textColor="#0000ff" 
+           android:text="اجرای برنامه"/>
+           
+      
+           
+      
+      
+           <Button android:id="@+id/setting_list_button_backGr" 
+	    android:background="@drawable/wewerwe"
+       android:layout_width="200dip"
+	    	    android:layout_height="51dip"
+           android:textStyle="bold"
+             android:textColor="#0000ff" 
+           android:text="تغییر پیش زمینه و تم"/>
+           
+            
+           
+           
+           
+            
+                 
+           
+  </LinearLayout>
+  
+  <LinearLayout
+      android:id="@+id/linchild3"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_weight="1.7"
+      android:gravity="top|center"
+      android:orientation="vertical" >
+           
+	    	<Button
+	    	    android:id="@+id/button1"
+	    	    android:layout_width="170dp"
+	    	    android:layout_height="41dip"
+	    	    android:background="@drawable/wewerwe"
+	    	    android:text="عملکرد این برنامه"
+	    	      android:textColor="#0000ff"  
+	    	    android:textStyle="bold" />
+	    
+	    <Button
+	    android:id="@+id/button2"
+	      android:background="@drawable/wewerwe"
+	        android:layout_width="170dp"
+	    	    android:layout_height="41dip"
+	     android:textStyle="bold"
+	       android:textColor="#0000ff" 
+	    android:text="خارج شدن" />
+	  
+	 
+	
+        
+        
+  </LinearLayout>
+	
+  
+  	
+  <LinearLayout
+          android:id="@+id/linchild1"
+         
+          android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="2.6"
+      >
+      
+    
+  </LinearLayout>
+  
+	
+	
+</LinearLayout>
+

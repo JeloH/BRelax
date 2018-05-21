@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:weightSum="6"
+	android:background="@drawable/bg_9900"
+	 android:id="@+id/parent1_b">
+ 	
+  <LinearLayout
+      android:id="@+id/linchild2"
+     android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_weight="1"
+      android:gravity="top|center"
+      
+      android:orientation="vertical" >
+
+        <TextView
+          android:id="@+id/textView1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text=" "
+          android:textSize="12dip"         
+          android:textColor="#FFFFFF"
+          />
+  
+      <TextView
+          android:id="@+id/textView2"
+          android:layout_width="189dp"
+          android:layout_height="wrap_content"
+          android:text="تغییر پیش زمینه و تم نرم افزار:"
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:textColor="#000000"
+          android:textSize="12dip" />
+      
+        <TextView
+          android:id="@+id/textView3"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text=" "
+          android:textSize="12dip"         
+          android:textColor="#000000"
+          />
+  
+        
+
+        <Button
+               android:id="@+id/bstyle1_list_button"
+               android:layout_width="189dp"
+	    	    android:layout_height="54dp"
+               android:background="@drawable/wewerwe"
+               android:paddingBottom="5dp"
+               android:text="سبک یک (پیش فرض)" 
+                android:textStyle="bold"
+               />
+      
+
+           
+              
+              
+	   
+	  
+              <Button android:id="@+id/bstyle3_list_button" 
+	   android:background="@drawable/wewerwe"
+       android:layout_width="189dp"
+	    	    android:layout_height="54dp"
+           android:text="سبک دو"
+            android:textStyle="bold"
+              android:paddingBottom="5dp"
+              />
+    
+                      
+                    
+	   
+	
+        
+        
+  </LinearLayout>
+	
+	
+  <LinearLayout
+          android:id="@+id/linchild1"
+         
+          android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="5"
+      >
+      
+    
+  </LinearLayout>
+  
+	
+</LinearLayout>
+
+
+
+
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">مهرآهنگ (لالایی کودکانه)</string>
+    <string name="title_activity_page_view">PageView</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_list_name">ListName</string>
+    <string name="title_activity_menu_page">MenuPage</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_main_menu">MainMenuActivity</string>
+    <string name="title_activity_spl">SplActivity</string>
+    <string name="title_activity_splash_wel">مهرآهنگ</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_setti">SettiActivity</string>
+    <string name="title_activity_set_bak">SetBakActivity</string>
+    <string name="title_activity_set_font">SetFontActivity</string>
+    <string name="title_activity_about2_main">About2MainActivity</string>
+    <string name="title_activity_main_runpage_">Main_runpage_Activity</string>
+    <string name="title_activity_abut">AbutActivity</string>
+    <string name="title_activity_selctbackg_them">SelctbackgThemActivity</string>
+</resources>

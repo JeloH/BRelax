@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:weightSum="6"
+	  android:id="@+id/parent_c2"
+	  
+	  
+	  
+	android:gravity="top"
+ 
+ 
+         
+	 >
+ 	
+  <LinearLayout
+      android:id="@+id/linchild1"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_weight="6"
+      android:gravity="center"
+      android:orientation="vertical" >
+
+      <WebView
+          android:id="@+id/webView1"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_weight="0.44" />
+  </LinearLayout>
+  
+  <LinearLayout
+      android:id="@+id/linchild2"
+      android:layout_width="match_parent"
+      android:layout_height="33dp"
+      android:background="@drawable/base03"
+      android:gravity="bottom|center"
+      android:orientation="horizontal" >
+
+       
+ 		
+    <Button
+              android:id="@+id/button_play"
+              android:layout_width="wrap_content"
+              android:layout_height="32dip"
+              android:text=" "
+              android:background="@drawable/pla_11_v2"
+               />
+       
+    
+
+
+    
+    
+      
+  </LinearLayout>
+  
+  <LinearLayout
+      android:id="@+id/linchild3"
+      android:layout_width="match_parent"
+      android:layout_height="62dp"
+      android:background="@drawable/uuuummmbase_9_03_"
+      android:gravity="bottom|center"
+      android:orientation="horizontal" >
+           
+	 
+
+      <ImageButton
+          android:id="@+id/button_rp_5"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+           android:background="#00000000"
+           
+             android:layout_marginRight="10dip"
+          android:text=" " 
+          
+             android:src="@xml/btn_style5" 
+          
+          
+              android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            
+          />
+
+      
+      
+      <ImageButton
+          android:id="@+id/button_rp_4"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+           android:background="#00000000"
+             android:layout_marginRight="10dip"
+          android:text=" " 
+          
+                     android:src="@xml/btn_style4" 
+          
+              android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            
+          
+          />
+      
+      
+      <ImageButton
+          android:id="@+id/button_rp_3"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+           android:background="#00000000"
+           android:layout_marginRight="10dip"
+          android:text=" " 
+          
+           android:src="@xml/btn_style3" 
+           
+           
+               android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            
+            
+          />
+      
+      
+      
+      
+      
+      
+      
+
+      <ImageButton
+          android:id="@+id/button_rp_2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+           android:background="#00000000"
+           android:layout_marginRight="10dip"
+                       android:src="@xml/btn_style2" 
+           
+           
+               android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            
+            
+          android:text=" " />
+      
+
+      <ImageButton
+          android:id="@+id/button_rp_1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+        
+          android:text=" "
+         
+           android:background="#00000000"
+            
+            
+            android:src="@xml/btn_style1" 
+            
+             android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            
+           />
+      
+      
+	 
+	
+        
+        
+  </LinearLayout>
+	
+	
+	
+</LinearLayout>
+
+          
+          
+          
+          
+          
+  
+       
