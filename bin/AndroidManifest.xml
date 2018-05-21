@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mehrahangthreefree.com"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <supports-screens
+        android:anyDensity="true"
+        android:smallScreens="true" />
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" >
+        <activity
+            android:name="com.mehrahangthreefree.com.SplashWelActivity"
+            android:label="@string/title_activity_splash_wel" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mehrahangthreefree.com.TestActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.mehrahangthreefree.com.PageView"
+            android:label="@string/title_activity_page_view" >
+        </activity>
+        <activity
+            android:name="com.mehrahangthreefree.com.ListName"
+            android:label="@string/title_activity_list_name" >
+        </activity>
+        <activity
+            android:name="com.mehrahangthreefree.com.MenuPagenuPage"
+            android:label="@string/title_activity_menu_page" >
+        </activity>
+        <activity
+            android:name="com.mehrahangthreefree.com.SplashActivity"
+            android:label="@string/title_activity_splash" >
+        </activity>
+        <activity
+            android:name="com.mehrahangthreefree.com.MainMenuActivitytivity"
+            android:label="@string/title_activity_main_menu" >
+        </activity>
+        <activity
+            android:name="com.mehrahangthreefree.com.SplActivity"
+            android:label="@string/title_activity_spl" >
+        </activity>
+        <activity
+            android:name="com.mehrahangthreefree.com.AboutActivity"
+            android:label="@string/title_activity_about" >
+        </activity>
+        <activity
+            android:name="com.mehrahangthreefree.com.SettiActivity"
+            android:label="@string/title_activity_setti" >
+        </activity>
+        <activity
+            android:name="com.mehrahangthreefree.com.SetBakActivity"
+            android:label="@string/title_activity_set_bak" >
+        </activity>
+        <activity
+            android:name="com.mehrahangthreefree.com.SetFontActivity"
+            android:label="@string/title_activity_set_font" >
+        </activity>
+        <activity
+            android:name="com.mehrahangthreefree.com.Main_runpage_Activity"
+            android:label="@string/title_activity_main_runpage_" >
+        </activity>
+        <activity
+            android:name="com.mehrahangthreefree.com.AbutActivity"
+            android:label="@string/title_activity_abut" >
+        </activity>
+        <activity
+            android:name="com.mehrahangthreefree.com.SelctbackgThemActivity"
+            android:label="@string/title_activity_selctbackg_them" >
+        </activity>
+    </application>
+
+    <uses-sdk android:minSdkVersion="4" />
+
+</manifest>
