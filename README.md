@@ -1,5 +1,5 @@
 # BRelax (MehrAhang)
-Implement a entertainment app for relaxing children – Android/java
+Implement an entertainment app for relaxing children – Android/java
 
 Persian app store as a free version:
 https://cafebazaar.ir/app/com.mehrahangthreefree.com/?l=en
